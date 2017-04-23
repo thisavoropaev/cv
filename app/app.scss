@@ -1,0 +1,15 @@
+body {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 25px;
+}
+
+ul:not(.no-dots) li {
+    &:after {
+        content: ".";
+    }
+}
+
+a {
+	color: #1976D2;
+}
