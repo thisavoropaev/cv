@@ -6,8 +6,8 @@ module.exports = {
 		html: filename + '.html'
 	},
 	page: {
-		'width': '790px',
-		'height': '2300px'
+		'width': '1320px',
+		'height': '2230px'
 	},
 	base: './dist'
 };
