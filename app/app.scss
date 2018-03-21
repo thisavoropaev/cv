@@ -1,15 +1,19 @@
 body {
-    max-width: 1140px;
-    margin: 0 auto;
-    padding: 0 25px;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 25px;
 }
 
 ul:not(.no-dots) li {
-    &:after {
-        content: ".";
-    }
+  &:after {
+    content: ".";
+  }
 }
 
 a {
-	color: #1976D2;
+  color: #1976D2;
+
+  &[download] {
+    color: rgb(255, 15, 15);
+  }
 }
