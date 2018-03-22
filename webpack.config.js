@@ -11,14 +11,12 @@ const extractSass = new ExtractTextPlugin({
 const Page = {
   constructor: function(name, isPdf) {
     this.filename = name;
-    this.template = './app/app.ejs';
-    this.config = cvConfig;
     this.isPdf = isPdf;
-
     return this;
-  }
+  },
+  template: './app/app.ejs',
+  config: cvConfig
 };
-
 
 module.exports = {
   entry: './app/app.js',
