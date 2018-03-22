@@ -23,7 +23,8 @@
   "scripts": {
     "get:pdf": "node app/pdf.js",
     "build": "webpack && npm run get:pdf",
-    "start": "node_modules/.bin/webpack-dev-server"
+    "start": "node_modules/.bin/webpack-dev-server",
+    "git:upd": "git push origin master && git subtree push --prefix dist origin gh-pages"
   },
   "keywords": [],
   "author": "Andrey Voropaev",
