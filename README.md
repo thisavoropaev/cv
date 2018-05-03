@@ -1,5 +1,5 @@
 # Personal CV
-My personal CV in html with pdf generation hosted with gh-pages. Using webpack2 and some node.js.
+My personal CV in html with pdf generation hosted with githhub pages. Using webpack and some node.js.
 
 `npm install` for install all dependencies.
 
