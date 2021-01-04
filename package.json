@@ -1,0 +1,14 @@
+{
+  "name": "andrei-varapayeu-cv",
+  "version": "1.0.0",
+  "description": "Personal html CV with PDF generation",
+  "main": "index.html",
+  "devDependencies": {
+    "html-pdf": "^2.2.0"
+  },  "scripts": {
+    "pdf": "node pdf.js"
+  },
+  "keywords": [],
+  "author": "Andrei Varapayeu",
+  "license": "ISC"
+}
